@@ -44,5 +44,6 @@ public class StandAloneTest {
         String thankyouMsg=driver.findElement(By.className("hero-primary")).getText();
         Assert.assertTrue(thankyouMsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
         driver.close();
+        System.out.println("End");
     }
 }
